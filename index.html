@@ -296,8 +296,7 @@
 		<script src="./scripts/script_static.js"></script>
 		<!-- <script src="./scripts/no_dev.js"></script> -->
 		<!-- <script src="./scripts/message.js"></script> -->
-		<audio controls autoplay loop>
-			<source src="audio.mp3"  type="audio/mp3">
+
 			Trình duyệt của bạn không hỗ trợ âm thanh.
 		</audio>
 		<style>
@@ -371,3 +370,21 @@
 			<address>update</address>
 	</body>
 </html>
+</body>
+</html>
+<body onclick="audio.play()">	
+<script>
+	var audio = new Audio('audio.mp3');
+
+	audio.oncanplaythrough = function(){
+	audio.play();
+	}
+	
+	audio.loop = true;
+	
+	audio.onended = function(){
+	audio.play();
+	}
+
+</script>
+<script>
