@@ -162,7 +162,7 @@ body {
   height: 120px;
   border-radius: 50%;
   padding: 8px;
-  background-color: hsl(0, 100%, 50%);
+  background-color: hsl(0, 0%, 0%);
   --primary-s-top: 42%;
   --primary-l-top: 95%;
   --primary-s-bottom: 44%;
