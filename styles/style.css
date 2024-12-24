@@ -543,7 +543,7 @@ body {
 
 @media (width <=640px) {
   .container::before {
-    background-image: url("https://i.pinimg.com/originals/8e/38/0b/8e380b220945d09c6faa0de34ccaf587.gif");
+    background-image: url("https://img.upanh.tv/2024/12/04/431117986dcdb6729a80bba3367fb61d.gif");
     margin: -2px;
     filter: blur(2px);
     background-color: rgba(0, 0, 0, 0.5);
